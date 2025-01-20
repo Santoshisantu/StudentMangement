@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Reset some default styling */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation menu */
+ul {
+    display: flex;
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* Remove extra content */
+    padding: 0;
+}
+
+/* Style for each list item */
+ul li {
+    flex: 1; /* Makes all list items take equal space */
+    text-align: center;
+}
+
+/* Style for the links */
+ul li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* Hover effect for links */
+ul li a:hover {
+    background-color: #575757; /* Lighter background on hover */
+    color: #fff; /* Ensure text remains white */
+}
+
+/* Active link style */
+ul li a:active {
+    background-color: #04AA6D; /* Green highlight for active link */
+    color: white;
+}
